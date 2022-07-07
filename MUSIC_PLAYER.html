@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sophomore</title>
+    <style>
+        /* *{
+            background-color: blue;
+        } */
+        #title{
+            background-color: crimson;
+            height: 45px;
+            margin: auto;
+            width: 40%;
+            padding-top: 25px;
+            padding-left: 230px;
+            border-radius: 30px;
+            border-style: solid;
+            border-color: black;
+            color: azure;
+            font-size: 2rem;
+            display: flex;
+        }
+        body{
+            animation: changebg 10s linear infinite;
+            background-color: blue;
+        }
+        @keyframes changebg {
+            0%{
+                background-color: blue;
+            }
+            20%{
+                background-color: darkmagenta;
+            }
+            40%{
+                background-color: darkcyan;
+            }
+            60%{
+                background-color: lightcoral;
+            }
+            80%{
+                background-color: rgb(158, 29, 98);
+            }
+        }
+        #mainbox{
+            background-color: blanchedalmond;
+            border-color: black;
+            border-style: solid;
+            border-radius: 15%;
+            display: flexbox;
+            box-shadow: 10px 10px 10px black;
+            margin: auto;
+            width: 340px;
+            padding-top: 3px;
+            margin-top: 30px;
+            padding-left: 10px;
+            height: 400px;
+        }
+        #mainpic{
+            width: 10rem;
+            height: 10rem;
+            margin: auto;
+            padding-bottom: 12px;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        #mainbox audio{
+            padding-left: 14px;
+        }
+        #new{
+            font-size: small;
+            display: inline;
+            float: right;
+            padding-top: 1rem;
+        }
+        #head h3{
+            padding-left: 24px;
+            color:lightsteelblue;
+        }
+        #head h2{
+            text-shadow: 3px 3px 3px rgb(171, 171, 196);
+        }
+        #leftArrow{
+            padding-bottom: 500px;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="title">
+        SOPHOMORE: <div id="new">ENJOY THE BEATS</div> 
+    </div>
+    <div id="mainbox">
+        <div id="head">
+            <h2>NAMO NAMO JI SHANKARA</h2>
+            <h3>KEDARNATH || AMIT TRIVEDI</h3>
+            <div id="mainpic">
+                <img src="NAMO_NAMO1.webp" alt="">
+            </div>
+        </div>
+            <audio src="NAMO_NAMO.mp4" controls></audio>
+            <div id="leftArrow">
+                <button><a href=""><i class="fa-duotone fa-circle-chevron-left" title="PREVIOUS"></i></a></button>
+            </div>
+    </div>
+    <script src="https://kit.fontawesome.com/c2ca30d5cd.js" crossorigin="anonymous"></script>
+</body>
+</html>
